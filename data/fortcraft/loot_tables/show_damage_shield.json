@@ -1,0 +1,32 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:light_blue_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{PickupDelay:20s,ShowDamage:true,CustomModelData:2}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "score": {
+                    "name": "$Damage",
+                    "objective": "FN.Temporary"
+                  },
+                  "color": "#50C7FF",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

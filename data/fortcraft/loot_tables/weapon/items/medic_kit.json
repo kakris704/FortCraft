@@ -1,0 +1,80 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:10002,WeaponID:10002,ConsumeTime:200,Rarity:1}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "医療キット",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "-----------------",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "★★",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "体力を最大まで回復する。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "-----------------",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "種類",
+                      "color": "gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "：",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "消耗品",
+                      "color": "yellow",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

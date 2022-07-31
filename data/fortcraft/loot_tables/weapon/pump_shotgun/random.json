@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "fortcraft:weapon/pump_shotgun/common"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "fortcraft:weapon/pump_shotgun/uncommon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "fortcraft:weapon/pump_shotgun/rare"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "fortcraft:weapon/pump_shotgun/epic"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "fortcraft:weapon/pump_shotgun/legendary"
+          }
+        ]
+      }
+    ]
+  }
+  

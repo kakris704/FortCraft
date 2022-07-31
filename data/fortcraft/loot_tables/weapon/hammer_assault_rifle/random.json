@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "fortcraft:weapon/hammer_assault_rifle/common"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "fortcraft:weapon/hammer_assault_rifle/uncommon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "fortcraft:weapon/hammer_assault_rifle/rare"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "fortcraft:weapon/hammer_assault_rifle/epic"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "fortcraft:weapon/hammer_assault_rifle/legendary"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "fortcraft:temporary"
+      },
+      "ops": [
+        {
+          "source": "Bullet",
+          "target": "Magazine",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

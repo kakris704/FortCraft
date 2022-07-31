@@ -1,0 +1,24 @@
+{
+    "values": [
+        "minecraft:air",
+        "minecraft:void_air",
+        "minecraft:cave_air",
+        "#minecraft:flowers",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "#minecraft:saplings",
+        "minecraft:iron_bars",
+        "minecraft:chain",
+        "#minecraft:buttons",
+        "#minecraft:pressure_plates",
+        "minecraft:tripwire_hook",
+        "minecraft:glow_lichen",
+        "minecraft:tripwire",
+        "minecraft:vine",
+        "#minecraft:rails",
+        "minecraft:lever",
+        "minecraft:torch",
+        "minecraft:soul_torch",
+        "minecraft:water"
+    ]
+}

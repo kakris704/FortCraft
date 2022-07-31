@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "fortcraft:weapon/items/bandage"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "fortcraft:weapon/items/medic_kit"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "fortcraft:weapon/items/mini_shield"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "fortcraft:weapon/items/shield_potion"
+          }
+        ]
+      }
+    ]
+  }
+  

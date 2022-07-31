@@ -1,0 +1,108 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": [
+                  {
+                    "text": "ポンプショットガン",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "-----------------------",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "★",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "連射速度は中程度でダメージが大きい。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "射程が短くマガジンサイズが小さい。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "-----------------------",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "種類",
+                      "color": "gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "：",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "ショットガン",
+                      "color": "yellow",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "弾薬",
+                      "color": "gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "：",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "散弾",
+                      "color": "yellow",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{WeaponID:1001,CustomModelData:1001,BulletDamage:18,Rarity:0,Magazine:5,ReloadTime:23,UseBulletID:3,Standard:true}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

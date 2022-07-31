@@ -1,0 +1,121 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": [
+                  {
+                    "text": "ハンマーアサルトライフル",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "-------------------",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "★",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "フルオートでリコイルが独特な、",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "柔軟性のあるアサルトライフル。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "-------------------",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "種類",
+                      "color": "gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "：",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "アサルトライフル",
+                      "color": "yellow",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "弾薬",
+                      "color": "gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "：",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "中口径弾",
+                      "color": "yellow",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{WeaponID:21001,CustomModelData:21001,BulletDamage:27,Rarity:0,Magazine:20,ReloadTime:48,UseBulletID:1,HideFlags:3}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "name": "",
+                    "amount": -100,
+                    "operation": "addition",
+                    "id": "86283097-f22e-45a7-9d46-8447e9026f0d",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

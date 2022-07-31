@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "fortcraft:weapon/flint_knock_pistol/random"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "fortcraft:weapon/hammer_assault_rifle/random"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "fortcraft:weapon/pump_shotgun/random"
+          }
+        ]
+      }
+    ]
+  }
+  
