@@ -64,6 +64,7 @@
 
 ## ゲームルール
     gamerule naturalRegeneration false
+    gamerule reducedDebugInfo true
 
 ## デバッグ
     tellraw kakris704 "リロード完了"
