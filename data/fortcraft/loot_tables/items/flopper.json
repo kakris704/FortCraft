@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:10005,WeaponID:10005,ConsumeTime:15,Rarity:1}"
+                "tag": "{CustomModelData:10005,WeaponID:10005,ConsumeTime:20,Rarity:1}"
               },
               {
                 "function": "minecraft:set_name",
