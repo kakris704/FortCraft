@@ -6,22 +6,22 @@
           {
             "type": "minecraft:loot_table",
             "weight": 6,
-            "name": "fortcraft:weapon/items/bandage"
+            "name": "fortcraft:items/bandage"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 3,
-            "name": "fortcraft:weapon/items/medic_kit"
+            "name": "fortcraft:items/medic_kit"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 4,
-            "name": "fortcraft:weapon/items/mini_shield"
+            "name": "fortcraft:items/mini_shield"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 3,
-            "name": "fortcraft:weapon/items/shield_potion"
+            "name": "fortcraft:items/shield_potion"
           }
         ]
       }
