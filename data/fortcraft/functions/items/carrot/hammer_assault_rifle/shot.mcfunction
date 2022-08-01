@@ -47,7 +47,7 @@
             schedule function fortcraft:items/carrot/hammer_assault_rifle/recoil 3t
 
         # 射撃クールタイム
-            scoreboard players add @s FN.ShotCoolTime 4
+            scoreboard players add @s FN.ShotCoolTime 3
         # 精度
             scoreboard players add @s FN.Accuracy 3000
             scoreboard players operation @s FN.Accuracy < $6000 FN.Constant
