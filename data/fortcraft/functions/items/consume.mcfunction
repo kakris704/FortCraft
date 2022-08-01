@@ -1,6 +1,6 @@
 #> fortcraft:items/consume
 #
-# リロード中
+# 使用中
 #
 # @within function fortcraft:player/tick
 
@@ -13,4 +13,6 @@
         execute if entity @s[tag=FN.Consume_MiniShield] run function fortcraft:items/carrot/mini_shield/tick
     # ミニポ
         execute if entity @s[tag=FN.Consume_ShieldPotion] run function fortcraft:items/carrot/shield_potion/tick
+    # フロッパー
+        execute if entity @s[tag=FN.Consume_Flopper] run function fortcraft:items/carrot/flopper/tick
 

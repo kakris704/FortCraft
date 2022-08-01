@@ -22,6 +22,11 @@
             "type": "minecraft:loot_table",
             "weight": 3,
             "name": "fortcraft:items/shield_potion"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "fortcraft:items/flopper"
           }
         ]
       }

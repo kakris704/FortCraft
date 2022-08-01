@@ -21,3 +21,5 @@
         execute if score @s FN.WeaponID matches 10003 run function fortcraft:items/carrot/mini_shield/right_click
     #でかぽ
         execute if score @s FN.WeaponID matches 10004 run function fortcraft:items/carrot/shield_potion/right_click
+    #フロッパー
+        execute if score @s FN.WeaponID matches 10005 run function fortcraft:items/carrot/flopper/right_click

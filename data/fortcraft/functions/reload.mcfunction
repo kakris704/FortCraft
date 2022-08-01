@@ -52,6 +52,7 @@
     scoreboard players set $400 FN.Constant 400
     scoreboard players set $1000 FN.Constant 1000
     scoreboard players set $1500 FN.Constant 1500
+    scoreboard players set $2000 FN.Constant 2000
     scoreboard players set $2500 FN.Constant 2500
     scoreboard players set $6000 FN.Constant 6000
     scoreboard players set $9000 FN.Constant 9000
