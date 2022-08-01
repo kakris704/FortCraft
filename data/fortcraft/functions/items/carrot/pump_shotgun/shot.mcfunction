@@ -44,7 +44,7 @@
 
     #後処理
         tag @s add FN.Shooter
-        execute as @e[tag=FN.PumpShotgunBullet] at @s run function fortcraft:items/carrot/pump_shotgun/move
-
+        execute as @e[tag=FN.1] at @s run function fortcraft:items/carrot/pump_shotgun/move
+  
         # 射撃クールタイム
             scoreboard players add @s FN.ShotCoolTime 28
