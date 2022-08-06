@@ -26,6 +26,8 @@
     scoreboard objectives add FN.ConsumeSlot dummy "消費スロット"
     scoreboard objectives add FN.Jump minecraft.custom:minecraft.jump "ジャンプ"
     scoreboard objectives add FN.Accuracy dummy "武器の精度"
+    scoreboard objectives add FN.PlayTime minecraft.custom:minecraft.play_time "プレイ時間"
+    scoreboard objectives add FN.PlayerNumber dummy "弾とプレイヤーの紐づけ"
 
 ## ConstantにConstantを
     scoreboard players set $-1 FN.Constant -1
