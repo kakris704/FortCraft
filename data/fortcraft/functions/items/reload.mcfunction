@@ -14,3 +14,5 @@
         execute if entity @s[tag=FN.Reload_HammerAssaultRifle] run function fortcraft:items/carrot/hammer_assault_rifle/reload/tick
     # ポンプショットガン
         execute if entity @s[tag=FN.Reload_PumpShotgun] run function fortcraft:items/carrot/pump_shotgun/reload/tick
+    # ロケットランチャー
+        execute if entity @s[tag=FN.Reload_RocketLauncher] run function fortcraft:items/carrot/rocket_launcher/reload/tick

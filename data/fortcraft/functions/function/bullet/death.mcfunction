@@ -15,7 +15,7 @@
         kill @s
 
     # 音
-        playsound fortnite.player.eliminate master @a[tag=FN.Shooter]
+        execute as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber run playsound fortnite.player.eliminate master @s
 
     # キルログ
         gamerule showDeathMessages true

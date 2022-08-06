@@ -12,6 +12,8 @@
         execute if score @s FN.WeaponID matches 21001 run function fortcraft:items/carrot/hammer_assault_rifle/right_click
     #ポンプショットガン
         execute if score @s FN.WeaponID matches 1001 run function fortcraft:items/carrot/pump_shotgun/right_click
+    #ロケットランチャー
+        execute if score @s FN.WeaponID matches 1002 run function fortcraft:items/carrot/rocket_launcher/right_click
 
     #包帯
         execute if score @s FN.WeaponID matches 10001 run function fortcraft:items/carrot/bandage/right_click

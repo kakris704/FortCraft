@@ -13,6 +13,7 @@
 
         # Owner
             data modify entity @e[tag=FN.HammerAssaultRifleBullet,limit=1] data.Owner set from entity @s UUID
+            scoreboard players operation @e[tag=FN.HammerAssaultRifleBullet] FN.PlayerNumber = @s FN.PlayerNumber
 
         # Name
             function fortcraft:function/get_name

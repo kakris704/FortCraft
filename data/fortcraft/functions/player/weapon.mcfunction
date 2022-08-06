@@ -13,3 +13,5 @@
     execute if score @s FN.WeaponID matches 21001 run function fortcraft:items/carrot/hammer_assault_rifle/main_hand
 
     execute if score @s FN.WeaponID matches 1001 run function fortcraft:items/carrot/pump_shotgun/main_hand
+
+    execute if score @s FN.WeaponID matches 1002 run function fortcraft:items/carrot/rocket_launcher/main_hand

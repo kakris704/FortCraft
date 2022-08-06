@@ -30,6 +30,7 @@
 
         # Owner
             execute as @e[tag=FN.PumpShotgunBullet] run data modify entity @s data.Owner set from entity @p UUID
+            scoreboard players operation @e[tag=FN.PumpShotgunBullet] FN.PlayerNumber = @s FN.PlayerNumber
 
         # Name
             function fortcraft:function/get_name

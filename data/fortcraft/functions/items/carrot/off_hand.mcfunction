@@ -17,3 +17,4 @@
     execute if score @s FN.WeaponID matches 8001 if score @s FN.Magazine matches 0 run function fortcraft:items/carrot/flint_knock_pistol/reload/off_hand
     execute if score @s FN.WeaponID matches 21001 if score @s FN.Magazine matches ..19 run function fortcraft:items/carrot/hammer_assault_rifle/reload/off_hand
     execute if score @s FN.WeaponID matches 1001 if score @s FN.Magazine matches ..4 run function fortcraft:items/carrot/pump_shotgun/reload/off_hand
+    execute if score @s FN.WeaponID matches 1002 if score @s FN.Magazine matches 0 run function fortcraft:items/carrot/rocket_launcher/reload/off_hand
