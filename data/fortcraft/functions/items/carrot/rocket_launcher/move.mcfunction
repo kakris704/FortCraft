@@ -10,6 +10,7 @@
     #パーティクル
         execute if score @s FN.BulletTime matches 4.. run particle smoke ~ ~ ~ ^ ^ ^-5000000 0.0000001 0 force
         execute if score @s FN.BulletTime matches 4.. run particle cloud ~ ~ ~ 0.1 0.1 0.1 0.05 2 force
+        playsound minecraft:block.fire.extinguish master @a ~ ~ ~ 0.025 0.5
 
     # ロケット本体
         summon falling_block ~ ~-0.5 ~ {NoGravity:true,Tags:["FN.RocketFallingBlock"],BlockState:{Name:"minecraft:green_concrete"},Time:599,DropItem:false}
