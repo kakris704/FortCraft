@@ -19,7 +19,7 @@
                     "name": "$Damage",
                     "objective": "FN.Temporary"
                   },
-                  "color": "#50C7FF",
+                  "color": "blue",
                   "italic": false
                 }
               }

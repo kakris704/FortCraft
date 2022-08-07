@@ -8,7 +8,7 @@
     item modify entity @s weapon.mainhand fortcraft:rocket_launcher/magazine
 
     tag @s remove FN.Reload
-    tag @s remove FN.Reload_FlintKnockPistol
+    tag @s remove FN.Reload_RocketLauncher
 
     # 弾を消費
         clear @s gunpowder{BulletID:4} 1

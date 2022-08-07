@@ -36,3 +36,6 @@
 
         # 射撃クールタイム
             scoreboard players add @s FN.ShotCoolTime 3
+        # 音
+            playsound minecraft:entity.lightning_bolt.impact master @a ~ ~ ~ 0.5 0.1
+            playsound minecraft:entity.firework_rocket.launch master @a ~ ~ ~ 1 0.1

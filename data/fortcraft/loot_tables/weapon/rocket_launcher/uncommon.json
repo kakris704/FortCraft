@@ -13,7 +13,7 @@
                 "name": [
                   {
                     "text": "ロケットランチャー",
-                    "color": "blue",
+                    "color": "green",
                     "bold": true,
                     "italic": false
                   }
@@ -30,8 +30,8 @@
                     "italic": false
                   },
                   {
-                    "text": "★★★",
-                    "color": "blue",
+                    "text": "★★",
+                    "color": "green",
                     "bold": false,
                     "italic": false
                   },
@@ -97,7 +97,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{WeaponID:1002,CustomModelData:1011,BulletDamage:100,Rarity:2,Magazine:1,ReloadTime:70,UseBulletID:4,Standard:true}"
+                "tag": "{WeaponID:1002,CustomModelData:1011,BulletDamage:85,Rarity:1,Magazine:1,ReloadTime:82,UseBulletID:4,Standard:true}"
               }
             ]
           }
