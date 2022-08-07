@@ -19,7 +19,7 @@
         execute as @e[tag=FN.PumpShotgunBullet] at @s unless block ~ ~ ~ #fortcraft:bullet_air_block run function fortcraft:items/carrot/pump_shotgun/bullet_kill
 
     #ダメージ
-        execute as @e[tag=FN.PumpShotgunBullet] at @s as @e[dx=0,dy=0,dz=0] positioned ~-1 ~-1 ~-1 as @e[dx=0,dy=0,dz=0] at @s if predicate fortcraft:damage run function fortcraft:items/carrot/pump_shotgun/bullet_hit
+        execute as @e[tag=FN.PumpShotgunBullet] at @s as @e[dx=0,dy=0,dz=0] positioned ~-1 ~-1 ~-1 if entity @s[dx=0,dy=0,dz=0] at @s if predicate fortcraft:damage run function fortcraft:items/carrot/pump_shotgun/bullet_hit
 
 ## 再帰(100ブロック分)
     execute if score @s FN.BulletTime matches ..799 positioned ^ ^ ^0.125 run function fortcraft:items/carrot/pump_shotgun/move

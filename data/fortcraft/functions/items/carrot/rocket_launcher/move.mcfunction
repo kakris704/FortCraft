@@ -21,7 +21,7 @@
         execute unless block ~ ~ ~ #fortcraft:bullet_air_block run function fortcraft:items/carrot/rocket_launcher/explosion
 
     #ダメージ
-        execute if score @s FN.BulletTime matches 10.. as @e[dx=0,dy=0,dz=0] positioned ~-1 ~-1 ~-1 as @e[dx=0,dy=0,dz=0] at @s if predicate fortcraft:damage as @e[tag=FN.RocketLauncherBullet,sort=nearest,limit=1] run function fortcraft:items/carrot/rocket_launcher/explosion
+        execute if score @s FN.BulletTime matches 10.. positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,dy=0,dz=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0,dy=0,dz=0] if predicate fortcraft:damage as @e[tag=FN.RocketLauncherBullet,sort=nearest,limit=1] at @s run function fortcraft:items/carrot/rocket_launcher/explosion
 
 ## 再帰(100ブロック分)
     execute if score @s FN.BulletTick matches ..6 positioned ^ ^ ^0.125 run function fortcraft:items/carrot/rocket_launcher/move

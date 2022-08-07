@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "fortcraft:weapon/rocket_launcher/common"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "fortcraft:weapon/rocket_launcher/uncommon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "fortcraft:weapon/rocket_launcher/uncommon"
+          }
+        ]
+      }
+    ]
+  }
+  

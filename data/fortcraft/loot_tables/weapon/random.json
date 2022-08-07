@@ -10,6 +10,11 @@
           },
           {
             "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "fortcraft:weapon/rocket_launcher/random"
+          },
+          {
+            "type": "minecraft:loot_table",
             "weight": 2,
             "name": "fortcraft:weapon/hammer_assault_rifle/random"
           },

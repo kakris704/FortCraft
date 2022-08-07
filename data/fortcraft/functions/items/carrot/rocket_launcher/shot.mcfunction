@@ -16,7 +16,7 @@
 
         # Name
             function fortcraft:function/get_name
-            data modify entity @e[tag=FN.RocketLauncherBullet,limit=1] data.Name set from storage fortcraft:temporary GetName
+            data modify entity @e[tag=FN.RocketLauncherBullet,tag=FN.Summon,limit=1] data.Name set from storage fortcraft:temporary GetName
 
     #前に向ける
         execute anchored eyes run tp @e[tag=FN.RocketLauncherBullet,tag=FN.Summon,limit=1] ^ ^ ^1 ~ ~
