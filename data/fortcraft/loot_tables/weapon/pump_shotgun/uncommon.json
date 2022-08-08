@@ -97,7 +97,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{WeaponID:1001,CustomModelData:1001,BulletDamage:20,Rarity:1,Magazine:5,ReloadTime:21,UseBulletID:3,Standard:true}"
+                "tag": "{WeaponID:1001,CustomModelData:1001,BulletDamage:20,Rarity:1,Magazine:5,ReloadTime:16,UseBulletID:3,Standard:true}"
               }
             ]
           }

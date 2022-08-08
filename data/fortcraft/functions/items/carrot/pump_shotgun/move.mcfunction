@@ -23,3 +23,4 @@
 
 ## 再帰(100ブロック分)
     execute if score @s FN.BulletTime matches ..799 positioned ^ ^ ^0.125 run function fortcraft:items/carrot/pump_shotgun/move
+    kill @e[tag=FN.PumpShotgunBullet]

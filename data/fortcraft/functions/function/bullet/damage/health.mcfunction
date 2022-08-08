@@ -6,10 +6,13 @@
 
 ## 計算
     tag @s add FN.Particle
-    execute if score @s FN.Shield matches 1.. run particle minecraft:end_rod ~ ~0.75 ~ 0.25 0.5 0.25 0.125 100 force @a[tag=!FN.Particle]
+    execute if score @s FN.Shield matches 1.. run particle minecraft:end_rod ~ ~0.75 ~ 0.25 0.5 0.25 0.1 25 force @a[tag=!FN.Particle]
+    execute if score @s FN.Shield matches 1.. run particle minecraft:block light_blue_stained_glass ~ ~1 ~ 0.2 0.5 0.2 1 100 force @a[tag=!FN.Particle]
+    execute if score @s FN.Shield matches 1.. run particle minecraft:block packed_ice ~ ~1 ~ 0.2 0.5 0.2 1 100 force @a[tag=!FN.Particle]
     execute if score @s FN.Shield matches 1.. as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber run playsound minecraft:fortnite.player.shield_crack master @s
     execute if score @s FN.Shield matches ..0 as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber run playsound minecraft:fortnite.player.hit_body master @s
     execute if score @s FN.Shield matches ..0 run playsound minecraft:fortnite.player.hit_body master @s
+    particle minecraft:block redstone_block ~ ~1 ~ 0.2 0.3 0.2 1 10 force
     tag @s remove FN.Particle
     scoreboard players operation $Damage FN.Temporary -= @s FN.Shield
     scoreboard players set @s FN.Shield 0
