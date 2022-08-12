@@ -30,7 +30,7 @@
     scoreboard objectives add FN.PlayerNumber dummy "弾とプレイヤーの紐づけ"
     scoreboard objectives add FN.BulletTick dummy "弾のtick(一時再帰用)"
     scoreboard objectives add FN.ItemTick dummy "ダメージ表示用アイテム専用"
-    scoreboard objectives add FN.ExplosionTimer dummy
+    scoreboard objectives add FN.ExplosionTimer dummy "爆発再帰用のスコア"
 
 ## ConstantにConstantを
     scoreboard players set $-1 FN.Constant -1
