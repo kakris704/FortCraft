@@ -6,8 +6,11 @@
 
 ## 処理
     # 計算
-        execute unless score $Damage FN.Temporary <= @s FN.Shield as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber at @s anchored eyes run loot spawn ^ ^-0.25 ^1.5 loot fortcraft:show_damage
-        execute if score $Damage FN.Temporary <= @s FN.Shield as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber at @s anchored eyes run loot spawn ^ ^-0.25 ^1.5 loot fortcraft:show_damage_shield
+        execute if entity @s[tag=!FN.HitHead] unless score $Damage FN.Temporary <= @s FN.Shield as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber at @s anchored eyes run loot spawn ^ ^-0.25 ^1.5 loot fortcraft:show_damage
+        execute if entity @s[tag=!FN.HitHead] if score $Damage FN.Temporary <= @s FN.Shield as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber at @s anchored eyes run loot spawn ^ ^-0.25 ^1.5 loot fortcraft:show_damage_shield
+        execute if entity @s[tag=FN.HitHead] as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber at @s anchored eyes run loot spawn ^ ^-0.25 ^1.5 loot fortcraft:show_damage_head
+
+        tag @s remove FN.HitHead
 
         execute as @e[type=item,nbt={Item:{tag:{ShowDamage:true}}}] run data modify entity @s CustomName set from entity @s Item.tag.display.Name
         execute as @e[type=item,nbt={Item:{tag:{ShowDamage:true}}}] run data modify entity @s CustomNameVisible set value true
