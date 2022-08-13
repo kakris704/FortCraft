@@ -1,0 +1,88 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gunpowder",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": [
+                  {
+                    "text": "ロケット弾",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "---------------",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "★",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ランチャーなどに使える、",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ロケットの弾。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "---------------",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "種類",
+                      "color": "gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "：",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "弾薬",
+                      "color": "yellow",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:10005,BulletID:4}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

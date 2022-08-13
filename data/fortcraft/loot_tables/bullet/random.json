@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "fortcraft:bullet/light"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "fortcraft:bullet/medium"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "fortcraft:bullet/heavy"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "fortcraft:bullet/shell"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "fortcraft:bullet/rocket"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 20
+        }
+      ]
+    }
+  ]
+}
