@@ -19,6 +19,7 @@
         "minecraft:lever",
         "minecraft:torch",
         "minecraft:soul_torch",
-        "minecraft:water"
+        "minecraft:water",
+        "minecraft:iron_block"
     ]
 }
