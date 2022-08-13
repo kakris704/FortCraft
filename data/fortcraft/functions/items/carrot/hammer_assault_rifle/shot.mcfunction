@@ -20,7 +20,10 @@
             data modify entity @e[tag=FN.HammerAssaultRifleBullet,limit=1] data.Name set from storage fortcraft:temporary GetName
 
     #前に向ける
-        execute anchored eyes run tp @e[tag=FN.HammerAssaultRifleBullet,limit=1] ^ ^ ^ ~ ~
+        execute anchored eyes run summon marker ^ ^ ^10 {Tags:["FN.FacingMarker"]}
+        execute unless predicate fortcraft:sneak anchored eyes positioned ^-0.3 ^-0.2 ^0.1 facing entity @e[tag=FN.FacingMarker] eyes run tp @e[tag=FN.HammerAssaultRifleBullet,limit=1] ~ ~ ~ ~ ~
+        execute if predicate fortcraft:sneak anchored eyes run tp @e[tag=FN.HammerAssaultRifleBullet,limit=1] ^ ^ ^ ~ ~
+        kill @e[tag=FN.FacingMarker]
   
     #弾をばらけさせる(要調整)
         #乱数生成
@@ -50,5 +53,5 @@
         # 射撃クールタイム
             scoreboard players add @s FN.ShotCoolTime 3
         # 精度
-            scoreboard players add @s FN.Accuracy 3000
+            scoreboard players add @s FN.Accuracy 2000
             scoreboard players operation @s FN.Accuracy < $6000 FN.Constant

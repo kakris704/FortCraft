@@ -8,7 +8,7 @@
     execute as @e[tag=FN.PumpShotgunBullet] at @s run tp ^ ^ ^0.125
 
     #パーティクル
-        execute as @e[tag=FN.PumpShotgunBullet] at @s run particle dust 0.522 0.522 0.522 0.225 ~ ~ ~ 0 0 0 0 1 force
+        execute as @e[tag=FN.PumpShotgunBullet] at @s run particle dust 0.522 0.522 0.522 0.2 ~ ~ ~ 0 0 0 0 1 force
 
     # 音
         execute if score @s FN.BulletTime matches 150.. run playsound fortnite.bullet.whip master @a ~ ~ ~ 0.1

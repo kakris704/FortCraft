@@ -8,7 +8,7 @@
     tp ^ ^ ^0.125
 
     #パーティクル
-        particle dust 0.522 0.522 0.522 0.225 ~ ~ ~ 0 0 0 0 1 force
+        particle dust 0.522 0.522 0.522 0.2 ~ ~ ~ 0 0 0 0 1 force
 
     #キル
         scoreboard players add @s FN.BulletTime 1

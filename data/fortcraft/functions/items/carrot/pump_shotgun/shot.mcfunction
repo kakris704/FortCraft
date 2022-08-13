@@ -37,7 +37,10 @@
             execute as @e[tag=FN.PumpShotgunBullet] run data modify entity @s data.Name set from storage fortcraft:temporary GetName
 
     #前に向ける
-        execute anchored eyes run tp @e[tag=FN.PumpShotgunBullet] ^ ^ ^ ~ ~
+        execute anchored eyes run summon marker ^ ^ ^10 {Tags:["FN.FacingMarker"]}
+        execute unless predicate fortcraft:sneak anchored eyes positioned ^-0.3 ^-0.2 ^0.1 facing entity @e[tag=FN.FacingMarker] eyes run tp @e[tag=FN.PumpShotgunBullet] ~ ~ ~ ~ ~
+        execute if predicate fortcraft:sneak anchored eyes run tp @e[tag=FN.PumpShotgunBullet] ^ ^ ^ ~ ~
+        kill @e[tag=FN.FacingMarker]
   
     #弾をばらけさせる
         #条件わけ

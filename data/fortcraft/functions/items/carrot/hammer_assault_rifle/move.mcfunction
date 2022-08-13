@@ -8,7 +8,7 @@
     tp ^ ^ ^0.125
 
     #パーティクル
-        execute if score @s FN.BulletTime matches 4.. run particle dust 0.522 0.522 0.522 0.225 ~ ~ ~ 0 0 0 0 1 force
+        execute if score @s FN.BulletTime matches 4.. run particle dust 0.522 0.522 0.522 0.2 ~ ~ ~ 0 0 0 0 1 force
 
     #キル
         scoreboard players add @s FN.BulletTime 1
