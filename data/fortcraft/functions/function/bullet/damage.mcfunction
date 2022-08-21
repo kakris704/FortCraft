@@ -20,6 +20,6 @@
         execute if score $Damage FN.Temporary <= @s FN.Shield run particle dust 0 0.518 1 0.5 ~ ~0.75 ~ 0.3 0.5 0.3 1 75 force
         execute if score $Damage FN.Temporary <= @s FN.Shield run effect give @s instant_damage 1 30 true
         execute if score $Damage FN.Temporary <= @s FN.Shield run playsound fortnite.player.hit_shield_me master @s
-        execute if score $Damage FN.Temporary <= @s FN.Shield as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber run playsound fortnite.player.hit_shield master @s
+        execute if score $Damage FN.Temporary <= @s FN.Shield as @a if score @s FN.PlayerNumber = @e[tag=FN.Bullet,sort=nearest,limit=1] FN.PlayerNumber run playsound fortnite.player.hit_shield master @s ~ ~ ~ 1000
         execute if score $Damage FN.Temporary <= @s FN.Shield run scoreboard players operation @s FN.Shield -= $Damage FN.Temporary
 

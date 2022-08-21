@@ -53,5 +53,5 @@
         # 射撃クールタイム
             scoreboard players add @s FN.ShotCoolTime 3
         # 精度
-            scoreboard players add @s FN.Accuracy 2000
-            scoreboard players operation @s FN.Accuracy < $6000 FN.Constant
+            scoreboard players add @s FN.Accuracy 1500
+            scoreboard players operation @s FN.Accuracy < $3000 FN.Constant
